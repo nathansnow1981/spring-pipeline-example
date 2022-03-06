@@ -1,4 +1,4 @@
-package com.example.springdockerghpages;
+package com.example.springPipelineExample;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
