@@ -1,5 +1,0 @@
-{
-  "deploy": {
-    "goal": "Dtest.active=false -DmainClass=\"com/example/springdockerghpages/SpringDockerGhPagesApplication.java\" assembly:jar-with-dependencies exec:java"
-  }
-}
