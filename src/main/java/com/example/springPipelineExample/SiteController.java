@@ -11,4 +11,9 @@ public class SiteController {
     String index(Model model){
         return "index";
     }
+
+    @RequestMapping("about")
+    String about(Model model){
+        return "about";
+    }
 }
