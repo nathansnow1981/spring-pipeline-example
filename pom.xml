@@ -9,12 +9,12 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>spring-docker-gh-pages</artifactId>
+	<artifactId>spring-aws-cicd-example</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>spring-docker-gh-pages</name>
-	<description>Demo project for running a Spring Boot application in a docker container</description>
+	<name>Spring AWS CI/CD Example</name>
+	<description>Demo project for creating a pipeline with AWS</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -42,6 +42,7 @@
 				<version>2.6.3</version>
 			</plugin>
 		</plugins>
+		<finalName>spring-pipeline-example</finalName>
 	</build>
 
 </project>
