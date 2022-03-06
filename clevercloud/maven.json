@@ -1,9 +1,9 @@
 {
   "build": {
     "type": "maven",
-    "goal": "maven:install"
+    "goal": "build"
   },
   "deploy": {
-    "goal": "mvn install"
+    "jarName": "target/spring-docker-gh-pages-0.0.1-SNAPSHOT.jar"
   }
 }
